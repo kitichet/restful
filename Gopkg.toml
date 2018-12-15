@@ -24,6 +24,11 @@
 #   go-tests = true
 #   unused-packages = true
 
+[metadata.heroku]
+  root-package = "github.com/kitichet/restful"
+  go-version = "1.11.1"
+  install = [ "./..." ]
+
 
 [[constraint]]
   name = "github.com/gorilla/mux"
